@@ -20,59 +20,49 @@
 
     <title>Responsive Real Estate Website - HTML CSS JAVASCRIPT</title>
 </head>
+<main class="about__container">
+
+    <h1 class="about__title">About <span>Us</span></h1>
+    <section class="about__section">
+        <h4 class="about__description">
+            Welcome to Sarayu Enterprises, where innovation meets excellence in real estate development. 
+            We are dedicated to crafting premium residential and commercial spaces that redefine luxury 
+            and comfort. With a focus on quality, transparency, and customer satisfaction, we aim to 
+            provide world-class living environments.
+</h4>
+    </section>
+
+    <section class="about__section">
+        <h1 class="section__title">   Our Mission</h1>
+        <h4 class="about__description">
+            Our mission is to create thoughtfully designed real estate projects that offer both 
+            aesthetic appeal and functional value. We are committed to delivering top-tier 
+            infrastructure and modern amenities to enhance our customers’ lifestyles.
+        </h4>
+    </section>
+
+    <section class="about__section">
+        <h1 class="section__title">Our Vision</h1>
+        <h4 class="about__description">
+            Our vision is to set new benchmarks in the real estate industry by integrating 
+            cutting-edge technology and sustainable building practices. We strive to build 
+            vibrant communities that stand the test of time.
+        </h4>
+    </section>
+
+    <section class="about__section">
+        <h2 class="section__title">Why Choose Us?</h2>
+        <ul class="about__list">
+            <li class="about__list-item">High-quality construction standards</li>
+            <li class="about__list-item">Transparent business practices</li>
+            <li class="about__list-item">Innovative designs and modern amenities</li>
+            <li class="about__list-item">Customer-centric approach</li>
+            <li class="about__list-item">On-time project delivery</li>
+        </ul>
+    </section>
+</main>
 
 
-<main class="pt-24 px-6 md:px-20">
-        <h1 class="text-3xl font-bold text-center mb-6">About Us</h1>
-
-        <section class="mb-10">
-            <p class="text-lg text-gray-700 text-center">
-                Welcome to Sarayu Enterprises, where innovation meets excellence in real estate development. 
-                We are dedicated to crafting premium residential and commercial spaces that redefine luxury 
-                and comfort. With a focus on quality, transparency, and customer satisfaction, we aim to 
-                provide world-class living environments.
-            </p>
-        </section>
-
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <div>
-                <h2 class="text-2xl font-semibold mb-3">Our Mission</h2>
-                <p class="text-gray-600">
-                    Our mission is to create thoughtfully designed real estate projects that offer both 
-                    aesthetic appeal and functional value. We are committed to delivering top-tier 
-                    infrastructure and modern amenities to enhance our customers’ lifestyles.
-                </p>
-            </div>
-            <div>
-                <img src="assets/images/mission.jpg" alt="Our Mission" class="rounded-lg shadow-lg">
-            </div>
-        </section>
-
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-10">
-            <div>
-                <img src="assets/images/vision.jpg" alt="Our Vision" class="rounded-lg shadow-lg">
-            </div>
-            <div>
-                <h2 class="text-2xl font-semibold mb-3">Our Vision</h2>
-                <p class="text-gray-600">
-                    Our vision is to set new benchmarks in the real estate industry by integrating 
-                    cutting-edge technology and sustainable building practices. We strive to build 
-                    vibrant communities that stand the test of time.
-                </p>
-            </div>
-        </section>
-
-        <section class="mt-10 text-center">
-            <h2 class="text-2xl font-semibold mb-3">Why Choose Us?</h2>
-            <ul class="text-gray-600 list-disc list-inside">
-                <li>High-quality construction standards</li>
-                <li>Transparent business practices</li>
-                <li>Innovative designs and modern amenities</li>
-                <li>Customer-centric approach</li>
-                <li>On-time project delivery</li>
-            </ul>
-        </section>
-    </main>
 
 
 

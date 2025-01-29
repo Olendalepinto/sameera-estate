@@ -42,24 +42,25 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                     <li class="nav__item">
                         <a href="/pages/about.php" class="nav__link <?php echo ($current_page == 'about.php') ? 'active-link' : ''; ?>">
-                            <i class='bx bx-building-house'></i>
-                            <span>About</span>
+                        <i class="bx bx-group"></i>
+                        <span>About</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
-                    <a href="/pages/contact.php" class="nav__link <?php echo ($current_page == 'contact.php') ? 'active-link' : ''; ?>">
-                    <i class='bx bx-award'></i>
+                        <a href="/pages/contact.php" class="nav__link <?php echo ($current_page == 'contact.php') ? 'active-link' : ''; ?>">
+                            <i class='bx bx-phone'></i>
                             <span>Contact</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="/assets/brochure/SarayuEnclave.pdf" class="nav__link" download>
-                            <i class='bx bxs-download'></i>
+                        <a href="/assets/brochure/SarayuEnclave.pdf" class="nav__link" target="_blank">
+                            <i class='bx bxs-file'></i>
                             <span>Brochure</span>
                         </a>
                     </li>
+
                 </ul>
             </div>
 

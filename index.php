@@ -30,6 +30,11 @@
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div class="home__container container grid">
+                     <!-- Background Video -->
+    <!-- <video autoplay loop muted playsinline class="home__bg-video">
+        <source src="assets/videos/sarayu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> -->
                 <div class="home_data">
                     <h1 class="home__title">
                         Discover Most Suitable Properties
@@ -38,12 +43,13 @@
                         Find a variety of properties that suit you very easily, forget all difficulties in finding a
                         residence for you
                     </p>
+            
+                    <button class="button popup-enabled">
+                        <a href="/assets/brochure/SarayuEnclave.pdf" class="nav__link" download>
+                            Download Brochure
+                        </a>
+                    </button>
 
-                    <form action="" class="home__search">
-                        <i class='bx bx-map'></i>
-                        <input type="search" placeholder="Search locations..." class="home__search-input">
-                        <button class="button popup-enabled">Search</button>
-                    </form>
 
                     <div class="home__value">
                         <div>
@@ -101,14 +107,9 @@
                             <img class="popular__img" src="assets/images/i2.png" alt="">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Park
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                                
                             </div>
                         </article>
 
@@ -116,14 +117,9 @@
                             <img class="popular__img" src="assets/images/seesaw.png" alt="arrr">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Kids Play Area
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                               
                             </div>
                         </article>
 
@@ -131,14 +127,9 @@
                             <img class="popular__img" src="assets/images/opengym.png" alt="">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Open Gym
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                                
                             </div>
                         </article>
 
@@ -146,14 +137,9 @@
                             <img class="popular__img" src="assets/images/streetlight.png" alt="">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Street Light
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                                
                             </div>
                         </article>
 
@@ -161,28 +147,18 @@
                             <img class="popular__img" src="assets/images/water.png" alt="">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Water Supply
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                                
                             </div>
                         </article>
                         <article class="popular__card swiper-slide">
                             <img class="popular__img" src="assets/images/current.png" alt="">
                             <div class="popular__data">
                                 <h2 class="popular__price">
-                                    <span>$</span>69,000.0
+                                    Underground Electrification
                                 </h2>
-                                <h3 class="popular__title">
-                                    Garden City Assat
-                                </h3>
-                                <p class="popular__description">
-                                    Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
-                                </p>
+                                
                             </div>
                         </article>
 
@@ -196,6 +172,51 @@
                 </div>
             </div>
         </section>
+
+        <section class="table-section">
+  <h2 class="section__title">Table Section</h2>
+  <p class="section__subtitle">A simple table displaying some data</p>
+</section> 
+  <!-- Google Maps Embed -->
+  <div class="map-wrapper">
+  <div class="map-container">
+    <iframe 
+      class="google-map" 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509366!2d144.95373531531823!3d-37.81627944202154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f9d6b1%3A0x1f0b1c6c9f7d0b0!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1621567781205!5m2!1sen!2sus" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+
+
+  <!-- Table -->
+  <section class="table-section">
+
+  <div class="table-container">
+    <table class="responsive-table">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+        </tr>
+        <tr>
+          <td>Data 3</td>
+          <td>Data 4</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+
 
         <!--==================== VALUE ====================-->
         <section class="value section" id="value">

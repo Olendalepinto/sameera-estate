@@ -3,6 +3,7 @@
 
  <!--==================== CONTACT CARDS ====================-->
  
+ 
  <section class="contact section" id="contact">
             <div class="contact__container container grid">
                 <div class="contact__images">
@@ -142,16 +143,16 @@
 </div>
 
 <!-- Popup Modal -->
-<div id="popupModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
-    <div class="bg-white rounded-lg p-8 text-center shadow-lg">
-        <h3 class="text-2xl font-bold mb-4">Message Sent</h3>
-        <p class="text-gray-600 mb-6">Thank you for contacting us! We will get back to you shortly.</p>
-        <button onclick="closePopup()"
-            class="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors">
+<div id="popupModal" class="popup__overlay">
+    <div class="popup__container">
+        <h3 class="popup__title">Message Sent</h3>
+        <p class="popup__text">Thank you for contacting us! We will get back to you shortly.</p>
+        <button onclick="closePopup()" class="popup__button">
             Back
         </button>
     </div>
 </div>
+
 
 <script>
     const form = document.getElementById('contactForm');
@@ -192,7 +193,7 @@
 </script>
 
 
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 
 

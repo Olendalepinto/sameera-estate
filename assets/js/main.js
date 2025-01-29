@@ -15,7 +15,7 @@ var swiper = new Swiper(".popular__container", {
     slidesPerView: 'auto',
     loop: true,
     autoplay: {
-        delay: 1750, // 4 seconds
+        delay: 17500, // 4 seconds
         disableOnInteraction: false, // Continue autoplay even when manually interacting
     },
     navigation: {
@@ -118,10 +118,10 @@ if (selectedTheme) {
 
 themeButton.addEventListener('click', toggleTheme);
 
-document.querySelectorAll('.popup-enabled').forEach((element)=>{
-    element.addEventListener('click', (event)=>{
-        event.preventDefault();
-        console.log(event.target);
-        alert('Buttons and links aren\'t functional.' + event.target)
-    })
-})
+// document.querySelectorAll('.popup-enabled').forEach((element)=>{
+//     element.addEventListener('click', (event)=>{
+//         event.preventDefault();
+//         console.log(event.target);
+//         alert('Buttons and links aren\'t functional.' + event.target)
+//     })
+// })
