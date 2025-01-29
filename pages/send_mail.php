@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         // Sender and recipient details
         $mail->setFrom($email, $name);
-        $mail->addAddress('odp9875@gmail.com'); // Recipient's email address
+        $mail->addAddress('@gmail.com'); // Recipient's email address
 
         // Email content
         $mail->isHTML(true);
