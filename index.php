@@ -95,7 +95,7 @@
         <section class="popular section" id="popular">
             <div class="container">
                 <span class="section__subtitle">
-                    Best Choice
+                    Our Speciality
                 </span>
                 <h2 class="section__title">
                     AME<span>NITIES</span>
@@ -174,8 +174,8 @@
         </section>
 
         <section class="table-section">
-  <h2 class="section__title">Table Section</h2>
-  <p class="section__subtitle">A simple table displaying some data</p>
+  <h2 class="section__title">Location Details</h2>
+  <p class="section__subtitle">Almost close to all Urban Amenities</p>
 </section> 
   <!-- Google Maps Embed -->
   <div class="map-wrapper">
@@ -197,18 +197,26 @@
     <table class="responsive-table">
       <thead>
         <tr>
-          <th>Column 1</th>
-          <th>Column 2</th>
+          <th>Location</th>
+          <th>Distance</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Data 1</td>
-          <td>Data 2</td>
+          <td>Royal Circle</td>
+          <td>10 minutes away</td>
         </tr>
         <tr>
-          <td>Data 3</td>
-          <td>Data 4</td>
+          <td>City Bus Stand</td>
+          <td>10 minutes away</td>
+        </tr>
+        <tr>
+          <td>Bus Stand</td>
+          <td>10 minutes away</td>
+        </tr>
+        <tr>
+          <td>City Bus Stand</td>
+          <td>10 minutes away</td>
         </tr>
       </tbody>
     </table>
@@ -231,12 +239,10 @@
 
                 <div class="value__content">
                     <div class="value__data">
-                        <span class="section__subtitle">Our Value</span>
-                        <h2 class="section__title">Value We Give To <span>You.</span></h2>
+                        <span class="section__subtitle">Top-Notch</span>
+                        <h2 class="section__title">Infra<span>structure</span></h2>
                         <p class="value__description">
-                            Lorem, ipsum dolor sit amet od?
-                            Lorem, ipsum dolor sit amet od?
-                            Lorem, ipsum dolor sit amet od?
+                            The present and upcoming infrastructure around <span>SARAYU ENCLAVE</span> assures of a lifestyle that's convenient to the core.
                         </p>
                     </div>
 
@@ -246,7 +252,7 @@
                             <header class="value__accordion-header">
                                 <i class='bx bx-shield value__accordion-icon'></i>
                                 <h3 class="value__accordion-title">
-                                    Best Interest rates on the market
+                                Roads & Pathways
                                 </h3>
                                 <div class="value__accordion-arrow">
                                     <i class='bx bxs-down-arrow'></i>
@@ -255,9 +261,11 @@
 
                             <div class="value__accordion-content">
                                 <p class="value__accordion-description">
-                                    Price we provide is lore Lorem ipsum, dolor sit
-                                    amet consectetur adipisicing elit. Consequatur
-                                    dolorem esse dignissimos
+                                <ul class="about__list">
+                                  <li class="about__list-item">40 ft, 60 ft and  30 ft internal concrete roads.</li>
+                                    <li class="about__list-item">Stormwater  drain along the driveway.</li>
+                                    <li class="about__list-item">Landscaping on either side of the road.</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -266,7 +274,7 @@
                             <header class="value__accordion-header">
                                 <i class='bx bx-shield value__accordion-icon'></i>
                                 <h3 class="value__accordion-title">
-                                    Best Interest rates on the market
+                                Safety & Security
                                 </h3>
                                 <div class="value__accordion-arrow">
                                     <i class='bx bxs-down-arrow'></i>
@@ -275,9 +283,10 @@
 
                             <div class="value__accordion-content">
                                 <p class="value__accordion-description">
-                                    Price we provide is lore Lorem ipsum, dolor sit
-                                    amet consectetur adipisicing elit. Consequatur
-                                    dolorem esse dignissimos
+                                <ul class="about__list">
+                                  <li class="about__list-item">24/7 security.</li>
+                                    <li class="about__list-item">Surrounded with compound wall.</li>
+                                </ul> 
                                 </p>
                             </div>
                         </div>
@@ -286,7 +295,7 @@
                             <header class="value__accordion-header">
                                 <i class='bx bx-shield value__accordion-icon'></i>
                                 <h3 class="value__accordion-title">
-                                    Best Interest rates on the market
+                                Landscaped Features
                                 </h3>
                                 <div class="value__accordion-arrow">
                                     <!-- <i class='bx bxs-down-arrow'></i> -->
@@ -296,9 +305,11 @@
 
                             <div class="value__accordion-content">
                                 <p class="value__accordion-description">
-                                    Price we provide is lore Lorem ipsum, dolor sit
-                                    amet consectetur adipisicing elit. Consequatur
-                                    dolorem esse dignissimos
+                                <ul class="about__list">
+                                  <li class="about__list-item">Well developed park.</li>
+                                    <li class="about__list-item">Kids Play Area.</li>
+                                    <li class="about__list-item">Open Gym.</li>
+                                </ul> 
                                 </p>
                             </div>
                         </div>
@@ -307,7 +318,7 @@
                             <header class="value__accordion-header">
                                 <i class='bx bx-shield value__accordion-icon'></i>
                                 <h3 class="value__accordion-title">
-                                    Best Interest rates on the market
+                                    Electrical and Plumbing
                                 </h3>
                                 <div class="value__accordion-arrow">
                                     <!-- <i class='bx bxs-down-arrow'></i> -->
@@ -317,9 +328,12 @@
 
                             <div class="value__accordion-content">
                                 <p class="value__accordion-description">
-                                    Price we provide is lore Lorem ipsum, dolor sit
-                                    amet consectetur adipisicing elit. Consequatur
-                                    dolorem esse dignissimos
+                                <ul class="about__list">
+                                  <li class="about__list-item">Under Ground Electrification.</li>
+                                    <li class="about__list-item">Well planned street lights.</li>
+                                    <li class="about__list-item">Water Supply for every Plot.</li>
+                                    <li class="about__list-item">Under Ground Drains and Open Drains.</li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
