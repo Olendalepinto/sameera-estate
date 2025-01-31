@@ -24,9 +24,6 @@
                         <h2 class="section__title">
                             Easy to Contact <span>Us.</span>
                         </h2>
-                        <p class="contact__description">
-                            If you liked this website please contact at Lorem ipsum dolor sit amet.
-                        </p>
                     </div>
 
                     <div class="contact__card">
@@ -35,17 +32,15 @@
                                 <i class='bx bxs-phone-incoming'></i>
                                 <div>
                                     <h3 class="contact__card-title">
-                                        Phone Number
+                                   Phone
                                     </h3>
-
-                                    <p class="contact__card-description">
-                                        Lorem ipsum dolor sit.
-                                    </p>
                                 </div>
                             </div>
-                            <button class="contact__card-button popup-enabled">
-                                Button
+                            <button class="contact__card-button popup-enabled" onclick="window.location.href='tel:919353985324'">
+    
+                                <span>Call Now</span>
                             </button>
+
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
@@ -55,26 +50,21 @@
                                         Email
                                     </h3>
 
-                                    <p class="contact__card-description">
-                                        Lorem ipsum dolor sit amet, consectetur.
-                                    </p>
+                                    
                                 </div>
                             </div>
-                            <button class="contact__card-button popup-enabled">
-                                Button
+                            <button class="contact__card-button popup-enabled" onclick="window.location.href='mailto:nithishkumarj143@gmail.com'">
+                                <span>Mail Now</span>
                             </button>
+
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
                                 <i class='bx bx-envelope'></i>
                         <div>
                                     <h3 class="contact__card-title">
-                                        Land Line
+                                        Office
                                     </h3>
-
-                                    <p class="contact__card-description">
-                                        Accusantium qui in repudiandae unde
-                                    </p>
                                 </div>
                             </div>
                             <button class="contact__card-button popup-enabled">
@@ -86,12 +76,8 @@
                                 <i class='bx bxs-phone'></i>
                                 <div>
                                     <h3 class="contact__card-title">
-                                        Other
+                                        Location
                                     </h3>
-
-                                    <p class="contact__card-description">
-                                        Accusantium qui in repudiandae unde
-                                    </p>
                                 </div>
                             </div>
                             <button class="contact__card-button popup-enabled">

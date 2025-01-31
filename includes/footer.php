@@ -39,20 +39,23 @@
 
                 <div>
                     <h3 class="footer__title">
-                        About US
+                        Quick Links
                     </h3>
 
                     <ul class="footer__links">
                         <li>
-                            <a href="" class="footer__link popup-enabled">Our Mission</a>
+                            <a href="../index.php" class="footer__link popup-enabled">Home</a>
                         </li>
 
                         <li>
-                            <a href="" class="footer__link popup-enabled">Our Vision</a>
+                            <a href="/pages/about.php" class="footer__link popup-enabled">About</a>
                         </li>
 
                         <li>
-                            <a href="" class="footer__link popup-enabled">Why Choose Us?</a>
+                            <a href="/pages/contact.php" class="footer__link popup-enabled">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/assets/brochure/SarayuEnclave.pdf" class="footer__link popup-enabled">Brochure</a>
                         </li>
                     </ul>
                 </div>

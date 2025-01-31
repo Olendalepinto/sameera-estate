@@ -335,16 +335,12 @@ nav {
   row-gap: 3.5rem;
 }
 
-.home__title,
+
 .home__value-number {
   color: #fff;
 }
            
-.home__title {
-  font-size: var(--biggest-font-size);
-  line-height: 120%;
-  margin-bottom: 1.25rem;
-}
+
 
 .home__description {
   color: var(--text-color-light);
@@ -379,15 +375,31 @@ nav {
 
 .home__value {
   display: flex;
-  column-gap: 2.5rem;
+  justify-content: space-between; /* Distributes columns evenly */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  gap: 1rem; /* Provides uniform spacing */
 }
+
+.home__value div {
+  flex: 1; /* Ensures equal width distribution */
+  
+}
+
 
 .home__value-number {
   font-size: var(--h1-font-size);
   font-weight: var(--font-medium);
 }
+.home__value-number2 {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-medium);
+  line-height: 1.2;
+}
 
 .home__value-number span {
+  color: var(--second-color);
+}
+.home__value-number2 span {
   color: var(--second-color);
 }
 
@@ -1241,9 +1253,7 @@ button .nav__link {
     padding-bottom: 4rem;
   }
 
-  .home__title {
-    margin-bottom: 2rem;
-  }
+  
 
   .home__description,
   .home__search {
@@ -1632,12 +1642,12 @@ button .nav__link {
   }
   .responsive-table th:first-child,
   .responsive-table td:first-child {
-    width: 60%;
+    width: 50%;
   }
 
   .responsive-table th:last-child,
   .responsive-table td:last-child {
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -1665,7 +1675,7 @@ body.dark-theme .responsive-table th, body.dark-theme .responsive-table td {
 }
 
 .map-container {
-  width: 80%; /* Adjust width as needed */
+  width: 100%; /* Adjust width as needed */
   max-width: 800px;
   margin:0px ;
 }
