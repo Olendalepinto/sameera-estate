@@ -20,6 +20,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="website icon" href="/assets/images/logo1.png" type="image/png">
 
 </head>
 

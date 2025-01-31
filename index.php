@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--=============== FAVICON ===============-->
+    <!--============ === FAVICON ===============-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
     <!--=============== BOXICONS ===============-->
@@ -18,7 +18,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets\css\style.css">
 
-    <title>Responsive Real Estate Website - HTML CSS JAVASCRIPT</title>
+    <title>Sarayu Enclave</title>
 </head>
 
 <body class="">
