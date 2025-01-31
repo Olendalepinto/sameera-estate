@@ -36,8 +36,8 @@
         Your browser does not support the video tag.
     </video> -->
                 <div class="home_data">
-                    <h1 class="home__title">
-                        Discover Most Suitable Properties
+                    <h1 class="home__value-number2">
+                         <span>SARAYU ENCLAVE,</span><br>Discover Most Suitable Properties
                     </h1>
                     <p class="home__description">
                         Find a variety of properties that suit you very easily, forget all difficulties in finding a
@@ -54,31 +54,59 @@
                     <div class="home__value">
                         <div>
                             <h1 class="home__value-number">
-                                9K<span>+</span>
+                                12.3<span>+</span>
                             </h1>
                             <span class="home__value-description">
-                                Premium <br> Product
+                                Acres
                             </span>
                         </div>
 
                         <div>
                             <h1 class="home__value-number">
-                                2K<span>+</span>
+                                130<span>+</span>
                             </h1>
                             <span class="home__value-description">
-                                Happy <br> Customer
+                                Plots
                             </span>       
                         </div>
 
                         <div>
                             <h1 class="home__value-number">
-                                28K<span>+</span>
+                                40<span>ft</span>
                             </h1>
                             <span class="home__value-description">
-                                Awards <br> Winning
+                                Main road
                             </span>
                         </div>
                     </div>
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                30<span>ft</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Sub Roads
+                            </span>
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                47<span>%</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Roads and <br> Open Spaces
+                            </span>       
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                10<span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Amenities
+                            </span>
+                        </div>
+                    </div>    
                 </div>
 
                 <div class="home__images">
@@ -182,14 +210,12 @@
   <div class="map-container">
     <iframe 
       class="google-map" 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509366!2d144.95373531531823!3d-37.81627944202154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f9d6b1%3A0x1f0b1c6c9f7d0b0!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1621567781205!5m2!1sen!2sus" 
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3851.341416495269!2d76.95731397511669!3d15.139583285413144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDA4JzIyLjUiTiA3NsKwNTcnMzUuNiJF!5e0!3m2!1sen!2sin!4v1738314716783!5m2!1sen!2sin"
       allowfullscreen="" 
       loading="lazy">
     </iframe>
   </div>
 </div>
-
-
   <!-- Table -->
   <section class="table-section">
 
@@ -203,20 +229,28 @@
       </thead>
       <tbody>
         <tr>
+          <td>Taranath Hospital</td>
+          <td>3 minutes away</td>
+        </tr>
+        <tr>
+          <td>BPSC School</td>
+          <td>5 minutes away</td>
+        </tr>
+        <tr>
+          <td>Smart Bazaar</td>
+          <td>7 minutes away</td>
+        </tr>
+        <tr>
+          <td>SLN Mall</td>
+          <td>10 minutes away</td>
+        </tr>
+        <tr>
           <td>Royal Circle</td>
-          <td>10 minutes away</td>
+          <td>15 minutes away</td>
         </tr>
         <tr>
-          <td>City Bus Stand</td>
-          <td>10 minutes away</td>
-        </tr>
-        <tr>
-          <td>Bus Stand</td>
-          <td>10 minutes away</td>
-        </tr>
-        <tr>
-          <td>City Bus Stand</td>
-          <td>10 minutes away</td>
+          <td>Railway Station</td>
+          <td>20 minutes away</td>
         </tr>
       </tbody>
     </table>
