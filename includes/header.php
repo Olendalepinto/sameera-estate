@@ -27,7 +27,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <body>
 <header class="header" id="header">
         <nav class="nav container">
-        <a href="" class="nav__logo">
+        <a href="/../index.php" class="nav__logo">
             <img src="../assets/images/logo.png" alt="Logo" class="nav__logo-img">
         </a>
 
@@ -35,7 +35,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <ul class="nav__list">
 
                 <li class="nav__item">
-                    <a href="../index.php" class="nav__link <?php echo ($current_page === 'index.php') ? 'active-link' : ''; ?>">
+                    <a href="/../index.php" class="nav__link <?php echo ($current_page === 'index.php') ? 'active-link' : ''; ?>">
                     <i class='bx bx-home-alt-2'></i>
                     <span>Home</span>
                     </a>

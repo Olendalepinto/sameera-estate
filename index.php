@@ -31,10 +31,10 @@
         <section class="home section" id="home">
             <div class="home__container container grid">
                      <!-- Background Video -->
-    <!-- <video autoplay loop muted playsinline class="home__bg-video">
-        <source src="assets/videos/sarayu.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->
+                <video autoplay loop muted playsinline class="home__bg-video">
+                    <source src="/assets/videos/sarayu1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <div class="home_data">
                     <h1 class="home__value-number2">
                          <span>SARAYU ENCLAVE,</span><br>Discover Most Suitable Properties
@@ -109,12 +109,12 @@
                     </div>    
                 </div>
 
-                <div class="home__images">
+                <!-- <div class="home__images">
                     <div class="home__orbe"></div>
                     <div class="home__img">
                         <img src="assets/images/project4.png" alt="">
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -263,11 +263,10 @@
         <!--==================== VALUE ====================-->
         <section class="value section" id="value">
             <div class="value__container container grid">
-                <div class="value__images">
-                    <div class="value__orbe">
-                        <div class="value__img">
-                            <img src="assets/img/value.jpg" alt="">
-                        </div>
+            <div class="home__images">
+                    <div class="home__orbe"></div>
+                    <div class="home__img">
+                        <img src="assets/images/project4.png" alt="">
                     </div>
                 </div>
 

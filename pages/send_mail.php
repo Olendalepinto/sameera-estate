@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'New Contact Form Submission from Sarayu Enclayu Website';
+        $mail->Subject = 'New Contact Form Submission from Sarayu Website';
         $mail->Body = "
             <h2>Contact Form Submission</h2>
             <p><strong>Name:</strong> $name</p>

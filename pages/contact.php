@@ -9,13 +9,10 @@
  <section class="contact section" id="contact">
             <div class="contact__container container grid">
                 <div class="contact__images">
-                    <div class="contact__orbe">
+                    
+                <i class='bx bxs-phone-call'></i>
 
-                    </div>
-
-                    <div class="contact__img">
-                        <img src="assets/img/contact.png" alt="">
-                    </div>
+                    
                 </div>
  
                 <div class="contact__content">
@@ -44,7 +41,7 @@
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
-                                <i class='bx bxs-bell'></i>
+                                <i class='bx bx-envelope'></i>
                                 <div>
                                     <h3 class="contact__card-title">
                                         Email
@@ -60,7 +57,7 @@
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
-                                <i class='bx bx-envelope'></i>
+                                <i class='bx bx-building'></i>
                         <div>
                                     <h3 class="contact__card-title">
                                         Office
@@ -73,7 +70,7 @@
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
-                                <i class='bx bxs-phone'></i>
+                                <i class='bx bxs-map'></i>
                                 <div>
                                     <h3 class="contact__card-title">
                                         Location
@@ -141,43 +138,46 @@
     </div>
 </div>
 
-
 <script>
-    const form = document.getElementById('contactForm');
-    const popupModal = document.getElementById('popupModal');
+const form = document.getElementById('contactForm');
+const popupModal = document.getElementById('popupModal');
 
-    form.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the default form submission
+// Hide modal initially using 'hidden' class
+popupModal.classList.add('hidden');
 
-        // Gather form data
-        const formData = new FormData(form);
+form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
 
-        // Send form data using AJAX
-        fetch('send_mail.php', {
-            method: 'POST',
-            body: formData,
-        })
-        .then((response) => response.text()) // Get response as text
-        .then((data) => {
-            if (data.includes("Your message has been sent successfully")) {
-                // Show popup on success
-                popupModal.classList.remove('hidden');
-            } else {
-                // Handle error
-                alert("Failed to send the message. Please try again later.");
-                console.error(data);
-            }
-        })
-        .catch((error) => {
-            alert("An error occurred. Please try again later.");
-            console.error("Error:", error);
-        });
+    // Gather form data
+    const formData = new FormData(form);
+
+    // Send form data using AJAX (fetch API)
+    fetch('send_mail.php', {
+        method: 'POST',
+        body: formData,
+    })
+    .then((response) => response.text()) // Get response as text
+    .then((data) => {
+        if (data.includes("Your message has been sent successfully")) {
+            // Show popup on success by adding 'show' class
+            popupModal.classList.add('show');
+        } else {
+            // Handle error
+            alert("Failed to send the message. Please try again later.");
+            console.error(data);
+        }
+    })
+    .catch((error) => {
+        alert("An error occurred. Please try again later.");
+        console.error("Error:", error);
     });
+});
 
-    function closePopup() {
-        popupModal.classList.add('hidden'); // Hide the popup
-        form.reset(); // Optional: Reset the form
-    }
+// Close the popup
+function closePopup() {
+    popupModal.classList.remove('show'); // Hide the popup
+    form.reset(); // Optional: Reset the form
+}
 </script>
 
 
