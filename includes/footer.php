@@ -26,14 +26,14 @@
  <!--==================== FOOTER ====================-->
  <footer class="footer section">
         <div class="footer__container container">
-            <!-- <div class="links__intro">
+            <div class="links__intro">
                 <a href="" class="footer__logo">
-                    <i class='bx bxs-building-house bx-flashing' ></i>
+                <img src="../assets/images/logo.png" alt="Logo" class="nav__logo-img">
                 </a>
                 <p class="footer__description">
                     Stay in touch
                 </p>
-            </div> -->
+            </div>
 
             <div class="footer__content">
 
@@ -44,15 +44,15 @@
 
                     <ul class="footer__links">
                         <li>
-                            <a href="" class="footer__link popup-enabled">About Our Company</a>
+                            <a href="" class="footer__link popup-enabled">Our Mission</a>
                         </li>
 
                         <li>
-                            <a href="" class="footer__link popup-enabled">Our Story</a>
+                            <a href="" class="footer__link popup-enabled">Our Vision</a>
                         </li>
 
                         <li>
-                            <a href="" class="footer__link popup-enabled">Testimonials</a>
+                            <a href="" class="footer__link popup-enabled">Why Choose Us?</a>
                         </li>
                     </ul>
                 </div>

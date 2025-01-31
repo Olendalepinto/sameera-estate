@@ -2,7 +2,9 @@
 <?php include '../includes/header.php'; ?>
 
  <!--==================== CONTACT CARDS ====================-->
- 
+ <head> 
+ <title>Sarayu Enclave</title>
+ </head>
  
  <section class="contact section" id="contact">
             <div class="contact__container container grid">
@@ -15,7 +17,7 @@
                         <img src="assets/img/contact.png" alt="">
                     </div>
                 </div>
-
+ 
                 <div class="contact__content">
                     <div class="contact__data">
                         <span class="section__subtitle">Contact Us</span>

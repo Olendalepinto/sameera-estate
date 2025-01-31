@@ -238,15 +238,14 @@ nav {
     font-weight: var(--font-medium);
     transition: .3s;
   }
-  
   .nav__logo-img {
-    height: 120px; /* Adjust the size of the logo */
-    width: auto;
+    height: 120px; /* Adjust the height of the logo */
+    width: auto; /* Maintain aspect ratio */
     object-fit: contain;
-    padding:10 0 px; /* Ensures logo maintains its aspect ratio */
+    padding: 10px 0; /* Fixed incorrect syntax */
     margin-top: 35px;
-  }
-  
+}
+
   .nav__logo i {
     font-size: 1rem;
   }
@@ -894,12 +893,12 @@ button .nav__link {
 
 .footer__logo {
   color: var(--first-color);
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-semi-bold);
+  font-size: 2rem; /* Increased from h3 to h1 for larger size */
+  font-weight: var(--font-bold); /* Optional: Make it bolder */
   display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
-  margin-bottom: .75rem;
+  column-gap: .5rem; /* Slightly increased spacing */
+  margin-bottom: 1rem; /* Adjust spacing */
 }
 
 .footer__logo i {

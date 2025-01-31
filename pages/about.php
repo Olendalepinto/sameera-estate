@@ -18,7 +18,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets\css\style.css">
 
-    <title>Responsive Real Estate Website - HTML CSS JAVASCRIPT</title>
+    <title>Sarayu Enclave</title>
 </head>
 <main class="about__container">
 
