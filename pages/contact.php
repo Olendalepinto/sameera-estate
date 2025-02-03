@@ -64,9 +64,11 @@
                                     </h3>
                                 </div>
                             </div>
-                            <button class="contact__card-button popup-enabled">
-                                Button
-                            </button>
+                            <form action="https://www.google.com/maps/dir//15.1395833,76.9598889/@15.1395833,76.9598889,16z" target="_blank">
+                                <button class="contact__card-button popup-enabled" type="submit">
+                                    Navigate
+                                </button>
+                            </form>
                         </div>
                         <div class="contact__card-box">
                             <div class="contact__card-info">
@@ -77,9 +79,11 @@
                                     </h3>
                                 </div>
                             </div>
-                            <button class="contact__card-button popup-enabled">
-                                Button
-                            </button>
+                            <form action="https://www.google.com/maps/dir//15.1395833,76.9598889/@15.1395833,76.9598889,16z" target="_blank">
+                                <button class="contact__card-button popup-enabled" type="submit">
+                                    Navigate
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
