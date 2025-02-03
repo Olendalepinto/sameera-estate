@@ -64,7 +64,7 @@
                                     </h3>
                                 </div>
                             </div>
-                            <form action="https://www.google.com/maps/dir//15.1395833,76.9598889/@15.1395833,76.9598889,16z" target="_blank">
+                            <form action="https://www.google.com/maps/place/15%C2%B008'48.3%22N+76%C2%B056'45.5%22E/@15.1467586,76.9434,17z/data=!3m1!4b1!4m4!3m3!8m2!3d15.1467586!4d76.9459749?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D">
                                 <button class="contact__card-button popup-enabled" type="submit">
                                     Navigate
                                 </button>
@@ -79,7 +79,7 @@
                                     </h3>
                                 </div>
                             </div>
-                            <form action="https://www.google.com/maps/dir//15.1395833,76.9598889/@15.1395833,76.9598889,16z" target="_blank">
+                            <form action="https://www.google.com/maps/place/15%C2%B008'22.5%22N+76%C2%B057'35.6%22E/@15.1395833,76.957314,17z/data=!3m1!4b1!4m4!3m3!8m2!3d15.1395833!4d76.9598889?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D">
                                 <button class="contact__card-button popup-enabled" type="submit">
                                     Navigate
                                 </button>
@@ -91,7 +91,7 @@
         </section>
 
         <div class="contact__container_mail">
-    <div class="contact__card_mail">
+    <!-- <div class="contact__card_mail"> -->
         <div class="contact__card-box">
             <div class="contact__card-info">
                 <i class='bx bxs-envelope'></i>
@@ -128,7 +128,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    <!-- </div> -->
 </div>
 
 <!-- Popup Modal -->
