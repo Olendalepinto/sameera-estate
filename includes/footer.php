@@ -65,13 +65,10 @@
 
             <ul class="footer__social">
                 <a href="" class="footer__social-link popup-enabled" target="_blank">
-                    <i class='bx bxl-twitter'></i>
-                </a>
-                <a href="" class="footer__social-link popup-enabled" target="_blank">
                     <i class='bx bxl-facebook-circle'></i>
                 </a>
                 
-                <a href="" class="footer__social-link popup-enabled" target="_blank">
+                <a href="https://www.instagram.com/sarayuenclave?igsh=bHlwcHhpOGJsN3Fq" class="footer__social-link popup-enabled">
                     <i class='bx bxl-instagram-alt'></i>
                 </a>
             </ul>

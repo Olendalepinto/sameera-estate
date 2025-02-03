@@ -37,7 +37,7 @@
                 </video>
                 <div class="home_data">
                     <h1 class="home__value-number2">
-                         <span>SARAYU ENCLAVE,</span><br>Discover Most Suitable Properties
+                         <span>SARAYU ENCLAVE,</span><br>Discover Most Suitable Properties in <span>Ballari</span>
                     </h1>
                     <p class="home__description">
                         Find a variety of properties that suit you very easily, forget all difficulties in finding a
